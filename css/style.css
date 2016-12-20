@@ -1,6 +1,6 @@
 body {
     font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
-    background-color: #b0a793;
+    background-color: #0D0F1D;
     /*background: url('../img/bg.jpg') no-repeat center center fixed;*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -23,7 +23,7 @@ h6 {
 p {
     font-size: 1.25em;
     line-height: 1.6;
-    color: #000;
+    color: #373749;
 }
 
 hr {
@@ -34,7 +34,7 @@ hr {
 li {
     font-size: 1.25em;
     line-height: 1.6;
-    color: #000;
+    color: #373749;
 }
 
 .brand,
@@ -42,16 +42,29 @@ li {
     display: none;
 }
 
+.logo {
+    display: none;
+    margin-bottom: 15px;
+}
+
+.hr {
+    height: 6px; 
+    background-color: #687E89;
+    max-width: 100%;
+}
+
 .navbar-brand {
     text-transform: uppercase;
     font-weight: 900;
     letter-spacing: 2px;
+
 }
 
 .navbar-nav {
     text-transform: uppercase;
     font-weight: 400;
     letter-spacing: 3px;
+    font-weight: bold;
 }
 
 .img-full {
@@ -82,7 +95,6 @@ li {
     margin-bottom: 20px;
     padding: 30px 15px;
     background: #fff;
-    background: rgba(255,255,255,0.9);
 }
 
 .intro-text {
@@ -105,14 +117,11 @@ li {
 
 footer {
     background: #fff;
-    background: rgba(255,255,255,0.9);
 }
-
 
 
 @media screen and (min-width:768px) {
     .brand {
-        display: inherit;
         margin: 0;
         padding: 30px 0 10px;
         text-align: center;
@@ -121,7 +130,7 @@ footer {
         font-size: 5em;
         font-weight: 700;
         line-height: normal;
-        color: #fff;
+        color: #373749;
     }
 
     .top-divider {
@@ -161,11 +170,11 @@ footer {
     .navbar-default {
         border: none;
         background: #fff;
-        background: rgba(255,255,255,0.9);
     }
 
     .nav>li>a {
         padding: 20px;
+        
     }
 
     .navbar-nav>li>a {
@@ -179,6 +188,11 @@ footer {
         table-layout: fixed;
         font-size: 1.10em;
     }
+    
+    .logo {
+        display: inherit;
+    }
+
 }
 
 @media screen and (min-width:1200px) {
@@ -187,4 +201,6 @@ footer {
         display: table;
         clear: both;
     }
+
+
 }
