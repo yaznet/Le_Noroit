@@ -42,7 +42,7 @@ li {
     display: none;
 }
 
-.logo {
+.logo>a {
     display: none;
     margin-bottom: 15px;
 }
@@ -174,7 +174,7 @@ footer {
 
     .nav>li>a {
         padding: 20px;
-        
+
     }
 
     .navbar-nav>li>a {
